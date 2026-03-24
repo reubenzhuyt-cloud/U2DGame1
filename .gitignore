@@ -1,4 +1,23 @@
 # Unity .gitignore
+Assets/TextMesh Pro/Resources/Fonts & Materials/*.asset
+Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+Assets/TextMesh Pro/Fonts/*.asset
+Assets/TextMesh Pro/Sprites/*.asset
+*.fontsettings
+*.sdf.asset
+*.sdf.png
+*.sdf.asset.meta
+*.sdf.png.meta
+Assets/TextMesh Pro/Shaders/*.meta  # 保留shader文件，只忽略meta
+
+# 或者更简洁的写法
+Assets/TextMesh Pro/Resources/Fonts & Materials/
+Assets/TextMesh Pro/Fonts/
+Assets/TextMesh Pro/Sprites/
+
+# Unity动态生成的字体纹理
+Library/TextMeshPro/
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
